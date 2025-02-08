@@ -10,4 +10,7 @@ urlpatterns = [
     path('api/', include(router.urls)),
     path('order_form/', views.form, name='order_form'),
 
+
+
+
 ]
